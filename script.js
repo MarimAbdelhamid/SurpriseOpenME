@@ -7,11 +7,10 @@ const CONFIG = {
 
 const terminalLines = [
   "Initializing birthday protocol...",
-  "Checking: اجمل و اطعم حبيب في الدنيا... ✅ FOUND",
+  "Checking: اجمل و اطعم و افشخ حد في الدنيا... ✅ FOUND",
   "Loading: hugs(∞), kisses(∞), love(∞)...",
   "Running: love.exe --force --no-regrets",
-  "Result: You are extremely loved.",
-  "",
+  "Result:بنموووووت فيك كلنااااا",
   "Happy Birthday ❤️",
 ];
 
