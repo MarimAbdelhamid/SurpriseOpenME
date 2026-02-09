@@ -133,7 +133,7 @@ if (noBtn) {
 if (yesBtn) {
   yesBtn.addEventListener("click", () => {
     if (resultEl) {
-      resultEl.textContent = "Wooohoooo 🎉 كنت عارفه انه في عقلك الباطني بتحبني 😊";
+      resultEl.textContent = "Wooohoooo 🎉 كنت عارفه انه في عقلك الباطن بتحبني 😊";
     }
     megaConfetti(220);
     const finalSection = document.querySelector(".final");
