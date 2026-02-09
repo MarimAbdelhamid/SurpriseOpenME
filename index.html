@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday YA Wad 🐭❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Cute floating background stuff -->
+  <div class="bg" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="stars"></div>
+  </div>
+
+  <!-- Top controls -->
+  <header class="topbar">
+    <div class="badge">v1.0 • love.exe</div>
+
+    <div class="controls">
+      <button id="btnMusic" class="chip" type="button" title="Toggle music">
+        🔊 Music
+      </button>
+      <button id="btnConfetti" class="chip" type="button" title="More confetti">
+        🎉 Boost
+      </button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- HERO -->
+    <section class="card hero">
+      <div class="hero-left">
+        <p class="kicker">Attention: important system message</p>
+        <h1>
+          Happy Birthday, <span id="hisName">My Love</span> 🎂
+        </h1>
+
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="terminal-title">love.sh</span>
+          </div>
+          <pre id="terminalText" class="terminal-body"></pre>
+        </div>
+
+        <div class="hero-actions">
+          <button id="btnStart" class="primary" type="button">▶ Run birthday surprise</button>
+          <button id="btnScroll" class="ghost" type="button">↓ Skip to the fun</button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="photo-stack">
+          <img src="assets/WhatsApp Image 2026-02-09 at 20.03.47 (2).jpeg" alt="❤️❤️❤️" class="ph p2" />
+          <img src="assets/WhatsApp Image 2026-02-09 at 20.03.47 (3).jpeg" alt="❤️❤️❤️" class="ph p3" />
+
+        </div>
+        <div class="gifbox">
+          <img src="assets/HBD.webp" alt="Cute gif" />
+          <p class="gifcap"></p>
+        </div>
+        <div class="gifbox">
+          <img src="assets/happy-birthday.webp" alt="Cute gif" />
+          <p class="gifcap"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE EVIL BUTTON GAME -->
+    <section class="card game" id="game">
+      <h2>Quick question (very serious) 😌</h2>
+      <p class="subtitle2">
+        بتحبني؟ 
+      </p>
+
+      <div class="arena">
+        <button id="yesBtn" class="yes" type="button">YES 💖</button>
+        <button id="noBtn" class="no" type="button">No 🙄</button>
+      </div>
+
+      <div id="result" class="result" aria-live="polite"></div>
+    </section>
+    <!-- REASONS / CARDS -->
+<section class="grid">
+  <article class="card mini">
+    <h3>اسألني ليه بحبك؟ سألتني ليه 😌</h3>
+
+    <ul class="reasons" id="reasonsList">
+      <li>خفة دمك يا واد يحلو إنت.</li>
+      <li>🙈 حضنك… وما أدراك ما حضنك بيعمل فيا إيه.</li>
+      <li>فكرة إنك بتهتم وبتحاول… بس مش عايز تعترف بده.</li>
+      <li>(❁´◡`❁) ريحتكككككككك… آه من ريحتك.</li>
+      <li>😋 الأكل اللي بتجيبهولي.</li>
+      <li>😁 وحاجات تانية متتقالش هنا.</li>
+    </ul>
+  </article>
+</section>
+
+<article class="card mini">
+  <h3>Memory gallery</h3>
+
+  <div class="gallery" id="gallery">
+
+    <!-- Images -->
+    <img src="assets/WhatsApp Image 2026-02-09 at 20.03.47.jpeg" alt="❤️❤️❤️" />
+    <img src="assets/WhatsApp Image 2026-02-09 at 20.03.47 (1).jpeg" alt="❤️❤️❤️" />
+    <img src="assets/WhatsApp Image 2026-02-09 at 20.03.47 (4).jpeg" alt="❤️❤️❤️" />
+    <img src="assets/WhatsApp Image 2026-02-09 at 20.53.50.jpeg" alt="❤️❤️❤️" />
+
+    <!-- Videos -->
+    <video autoplay muted loop playsinline>
+      <source src="assets/WhatsApp Video 2026-02-09 at 20.03.49.mp4" type="video/mp4">
+    </video>
+
+    <video autoplay muted loop playsinline>
+      <source src="assets/WhatsApp Video 2026-02-09 at 20.53.51.mp4" type="video/mp4">
+    </video>
+
+    <video autoplay muted loop playsinline>
+      <source src="assets/WhatsApp Video 2026-02-09 at 20.53.52.mp4" type="video/mp4">
+    </video>
+
+  </div>
+</article>
+
+
+<!-- FINAL MESSAGE -->
+<section class="card final">
+
+  <h2>انت راجل تلاتيني و انا رغّاية بس نحاول نستحمل بعض 🥹</h2>
+
+  <!-- ACTION BUTTONS -->
+  <div class="final-actions">
+    <button id="btnLetter" class="ghost" type="button">
+      💌 💌 💌 💌 💌
+    </button>
+
+    <button id="btnFireworks" class="primary" type="button">
+      ✨✨✨✨✨
+    </button>
+  </div>
+
+  <!-- SECRET LETTER -->
+  <div id="letter" class="letter" hidden>
+    <p>
+      يعني احنا عارفين ان الرومانسيه مبتجبش معاك🥲 بس بجد عايزه اقولك انك اكتر حد
+      بيخليني مبسوطه.. وان بجد مش عايزه حاجة غير انك تكون مبسوط ومرتاح.. واتجوزك🤓♥️
+      عارف ان الجواز مني ليه فوايد لا تحصى.. اتجوزني عشان اوريهملك🥹🤤
+      كل سنه وانت بخير يا روحي ويارب ديما تكون بصحة وسلامه❤️‍🔥
+    </p>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  يعم بقا ابو حلاوتك بحبك ❤️
+</footer>
+</main>
+
+  <!-- Optional audio (put your file in assets/ and uncomment) -->
+  <audio id="bgm" src="assets/Albumaty.Com_mhmwd_alasyly_kl_snt_-_ealan_wady_dglt_llttwyr_alakary.mp3" preload="auto" loop></audio>
+
+  <canvas id="confetti"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
